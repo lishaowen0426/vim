@@ -139,3 +139,12 @@ noremap <silent><space>= :resize +3<cr>
 noremap <silent><space>- :resize -3<cr>
 noremap <silent><space>, :vertical resize -3<cr>
 noremap <silent><space>. :vertical resize +3<cr>
+"switch windows
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
+
+" switch buffers
+noremap <silent> <Leader>b :bprevious<CR>
+noremap <silent> <Leader>n :bnext<CR>
