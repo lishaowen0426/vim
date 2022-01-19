@@ -84,6 +84,7 @@ Plugin 'vim-scripts/phd'
 Plugin 'majutsushi/tagbar'
 Plugin 'dyng/ctrlsf.vim'
 Plugin 'bagrat/vim-buffet'
+Plugin 'preservim/nerdtree'
 call vundle#end()
 
 filetype plugin indent  on  " Load plugins according to detected filetype.
@@ -142,6 +143,7 @@ let g:tagbar_type_cpp = {
 nnoremap <Leader>q :tnext<CR>
 nnoremap <Leader>w :tprevious<CR>
 nnoremap <Leader>sf :CtrlSF
+nnoremap <Leader>bd :bd<CR>
 noremap <silent><space>= :resize +3<cr>
 noremap <silent><space>- :resize -3<cr>
 noremap <silent><space>, :vertical resize -3<cr>
