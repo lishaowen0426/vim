@@ -148,6 +148,7 @@ nnoremap <Leader>w :tprevious<CR>
 nnoremap <Leader>sf :CtrlSF
 nnoremap <Leader>bd :bd<CR>
 nnoremap <Leader>dir :NERDTreeToggle<CR>
+nnoremap <Leader>f :Files<CR>
 noremap <silent><space>= :resize +3<cr>
 noremap <silent><space>- :resize -3<cr>
 noremap <silent><space>, :vertical resize -3<cr>
@@ -177,3 +178,6 @@ nmap <leader>0 <Plug>BuffetSwitch(10)
 let g:buffet_show_index = 1
 let g:buffet_powerline_separators = 0
 let g:ycm_confirm_extra_conf = 0
+
+
+set tags=./.tags;,.tags;
